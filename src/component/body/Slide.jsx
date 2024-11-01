@@ -19,7 +19,7 @@ const Slide = () => {
   const Explore = ({ name, profession, experience, title, city }) => {
     return (
       <Card 
-        className="text-center text-black" 
+        className="text-center mx-2 px-2 py-2 px-2 text-black" 
         style={{ 
           width: '300px', 
           height: '400px', // Fixed height for the card
@@ -29,10 +29,11 @@ const Slide = () => {
         }}
       >
         <Card.Body>
-          <Card.Title className="display-6">{name}</Card.Title>
+          <Card.Title className="display-7">{name.slice(0,30)}</Card.Title>
           <Card.Subtitle className="text-muted">{profession}</Card.Subtitle>
           <Card.Text>{experience} of experience</Card.Text>
-          <Card.Text><strong>Our job is:</strong> {title}</Card.Text>
+          <Card.Text><strong>Our job is:</strong> {title.slice(0, 40)}</Card.Text>
+          <a href="#" className="btn btn-secondary">READ MORE</a>
           <Card.Text><strong>From:</strong> {city}</Card.Text>
         </Card.Body>
       </Card>

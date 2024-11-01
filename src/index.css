@@ -1,3 +1,12 @@
+.progress-custom {
+  background-color: #626F47; /* Change this color to your desired color */
+}
+
+.progress-custom .progress-bar {
+  background-color: #626F47; /* Change the color of the progress bar */
+}
+
+
 /* Center the search container properly */
 .search-container {
   position: relative;

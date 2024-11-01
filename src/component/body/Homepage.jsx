@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Bootstrap JS
 
 function Homepage() {
   return (
-    <div className="container mt-3">
+    <div className="container mt-1">
       <div className="row align-items-center"> {/* Center items vertically */}
         {/* Left Section: Image */}
         <div className="col-md-4 d-flex justify-content-center"> {/* Center image horizontally */}
